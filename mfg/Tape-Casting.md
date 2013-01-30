@@ -50,3 +50,12 @@ Notes:
 ## Characterization of Graphene Tape ##
 Conductivity:
 * Ranged from 130 to 24,000 S/m depending on treatment and FGS concentration. 2250C treated (annealed) > 1000 C treated (reduced) > no treatment.
+
+## Thoughts (Alex Kiselev) ##
+Although I'm a bit confused about the ambiguous wording regarding amounts of chemicals in the FGS composite slip but otherwise this paper seems repeatable. Tape casting is a common method for making ceramic tapes and Vorbeck seems to be the leader in graphene based materials, at least industrially.
+
+There are a lot of interesting aspects to this paper. First, if we can't use this method for making the conductive graphene on a substrate, we can probably use it with different insulating composites to create the laminating layers. In a PCB production line, if the lamination steps are extruding viscous composite "slip" and heating/curing it, it would be economical (Assuming the necessary curing steps are short and don't require large temperatures. For all intents and purposes, over 1000C is too much).
+
+However, to get useful conductivity out of the graphene we would have to reduce or anneal the composite at 1000C or 2250C respectively. This just isn't feasible for this project. Perhaps can be replaced with plasma curing (Does this exist?) or some flash/lithography method. If we can keep the solvent from evaporating over specific areas then maybe we can do an etching process with no acid and only a subsequent cleaning step to wash off the remaining composite. If we can come up with a composite where the binder/surfacant too can be selectively eliminated by laser or heating, that would be ideal.
+
+Electrodeposition of composites is also a growing field so we may be able to apply laminate that way.
